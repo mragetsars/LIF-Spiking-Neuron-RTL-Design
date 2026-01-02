@@ -1,0 +1,50 @@
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of LUT.v was successful.
+# Compile of MUX_2.v was successful.
+# Compile of MUX_3.v was successful.
+# Compile of Register.v was successful.
+# Compile of Shift_Register.v was successful.
+# Compile of tb_Top_Module.v was successful.
+# Compile of Top_Module.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.tb_Top_Module
+# vsim -gui work.tb_Top_Module 
+# Start time: 00:35:04 on Jan 03,2026
+# Loading work.tb_Top_Module
+# Loading work.Top_Module
+# Loading work.Controller
+# Loading work.Datapath
+# Loading work.Register
+# Loading work.Shift_Register
+# Loading work.MUX_2
+# Loading work.MUX_3
+# Loading work.Counter
+# Loading work.LUT
+# Loading work.ALU
+add wave -position insertpoint  \
+sim:/tb_Top_Module/V_WIDTH \
+sim:/tb_Top_Module/S_WIDTH \
+sim:/tb_Top_Module/COUNTER_WIDTH \
+sim:/tb_Top_Module/LUT_ADDR_WIDTH \
+sim:/tb_Top_Module/LUT_DATA_WIDTH \
+sim:/tb_Top_Module/LUT_MEM_PATH \
+sim:/tb_Top_Module/clk \
+sim:/tb_Top_Module/rst \
+sim:/tb_Top_Module/start \
+sim:/tb_Top_Module/input_spikes \
+sim:/tb_Top_Module/v_rest_load \
+sim:/tb_Top_Module/v_th_load \
+sim:/tb_Top_Module/Vth \
+sim:/tb_Top_Module/Vrest \
+sim:/tb_Top_Module/spike_out \
+sim:/tb_Top_Module/valid
+run -all
+# ** Note: $stop    : C:/Users/mrage/Programs/Codes/Verilog/CA_CA1/Source/tb_Top_Module.v(92)
+#    Time: 4470 ns  Iteration: 0  Instance: /tb_Top_Module
+# Break in Module tb_Top_Module at C:/Users/mrage/Programs/Codes/Verilog/CA_CA1/Source/tb_Top_Module.v line 92
+quit -sim
+# End time: 00:36:27 on Jan 03,2026, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 5
