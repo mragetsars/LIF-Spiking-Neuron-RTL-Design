@@ -51,3 +51,10 @@ LIF-Spiking-Neuron-RTL-Design/
 │   └── tb_Top_Module.v  # Testbench
 └── README.md            # Project documentation
 ```
+
+## 👥 Contributors
+
+This project was developed as a team effort for the **Computer Architecture** course at the **University of Tehran**.
+
+* **[Meraj Rastegar](https://github.com/mragetsars)**
+* **[Meraj Poorhosseiny](https://github.com/MerajPoorhosseiny)**
